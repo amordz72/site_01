@@ -1,0 +1,50 @@
+.container-fluid {
+  background-image: url(../../images/background/background2.webp);
+  background-size: cover;
+  height: 700px;
+}
+
+.clear {
+  clear: both;
+}
+
+.logo {
+  float: left;
+
+  width: 100px;
+}
+.nbar {
+  /**/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background-color: red; */
+  float: right;
+}
+.nbar li {
+  display: inline-block;
+  margin-top: 10px;
+
+  padding-right: 10px;
+}
+.nbar li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 19px;
+}
+.nbar li a:hover {
+  color: rgb(85, 233, 0);
+}
+.content {
+  text-align: center;
+  background-color: rgb(255, 217, 0);
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+ 

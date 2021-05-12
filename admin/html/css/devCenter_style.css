@@ -1,0 +1,14 @@
+
+.container-fluid{
+height: 600px;
+background-color: aqua;
+}
+.container{
+    border: 1px black solid;
+}._flex {
+   
+    border: 1px solid #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

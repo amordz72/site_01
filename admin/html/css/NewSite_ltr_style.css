@@ -1,0 +1,116 @@
+.text-succed {
+    color: rgb(26, 218, 26);
+  
+  }
+  #main {
+    /* */
+    font-family: "Tajawal", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+   height: 100vh;
+   background-image: url("../../images/background/background3.webp");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+  .nbar {
+    padding: 0;
+    color: white;
+    background-color: #353b48;
+    
+    opacity: 80%;
+    /*s-fix top*/
+    position: sticky;
+    top: 0;
+    /*e-fix-top*/
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    /*
+   min-height: 610px;
+  
+   max-height: 100px;*/
+  }
+  .nbar ul {
+    display: flex;
+    align-items: center;
+    /*  كود جديد
+    list-style: none; */
+    margin: 15px;
+    list-style: none;
+  }
+  
+  .nbar ul li {
+    text-decoration: none;
+    /* كود قديم
+      display: inline-block;
+      */
+    font-weight: bold;
+  }
+  .nbar ul li a {
+    color: white;
+  
+    padding: 10px;
+  }
+  .nbar ul li a:hover {
+    border-radius: 5px;
+    background-color: green;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    transform: 0.6s;
+    margin: 15px;
+  }
+  .logo .text-succed {
+    margin-left: 10px;
+  }
+  
+  ._bor {
+    border: 1px solid red;
+  }
+  ._bor-r {
+    border: 1px solid red;
+  }
+  ._bor-y {
+    border: 1px solid rgb(255, 238, 0);
+  }
+  .data  {
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  justify-content: center;
+   /*
+  width: 400px;
+  display: inline-block;*/
+  text-align: center;
+  }
+  .data *{
+  color: white;
+   }
+   .data h2{
+   font-size: 4rem;
+   text-shadow:0px 0px 20px #000207;
+     }
+    
+  .leading  {
+    font-size: 2rem;
+  font-weight: bold;
+   color: rgb(255, 255, 255);
+  /* border: 1px solid rgb(255, 238, 0);
+  width: 400px;
+  display: inline-block;*/  
+  text-shadow:0 10px 50px #4b0909;
+  } .data a{
+    font-size: 1.5rem;
+    color: #33ff00;
+  font-weight: bold;
+  text-shadow:0 10px 50px #ffffff;
+      }
+      ._conainer{
+        background-color: rgba(46, 35, 35, 0.349);
+        
+      }
+  

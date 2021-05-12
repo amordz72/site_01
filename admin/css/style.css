@@ -1,0 +1,77 @@
+:root {
+    --green1: #1abc9c;
+    --green2: #197965;
+    --blue1: #2980b9;
+    --move1: #8e44ad;
+    --orange1: #d35400;
+    --red1: #c0392b;
+    --ram1: #7f8c8d;
+    --white1: #ffffff;
+    --cc: #ffffff;
+    --WET_ASPHALT: #34495e;
+    --MIDNIGHT_BLUE: #2c3e50;
+    --frm: rgb(195, 205, 219, 60%);
+  }
+  #frm {
+    background-color: var(--frm);
+  }
+  .home-stats h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  /* border: black 1px solid; */
+  .home-stats .stat {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--white1);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+  
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .home-stats .stat .st-icon {
+    margin: 10px;
+    font-size: 60px;
+  }
+  .home-stats .stat .st-text {
+    font-size: 30px;
+  }
+  a {
+    text-decoration: none;
+    color: var(--white1);
+  }
+  .home-stats .stat .st-number {
+    display: block;
+    font-size: 50px;
+  }
+  
+  .home-stats .users {
+    background-color: var(--green2);
+  }
+  
+  .home-stats .prods {
+    background-color: var(--blue1);
+  }
+  .home-stats .buy {
+    background-color: var(--orange1);
+  }
+  .home-stats .sel {
+    background-color: var(--red1);
+  }
+  .latest {
+    margin-top: 30px;
+  
+    font-size: 24px;
+  }
+  footer {
+    margin-top: 100px;
+    background-color: #c7d9eb !important;
+  }
+  body {
+    min-height: 600px;
+  }
+  

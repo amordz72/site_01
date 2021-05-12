@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "ifri",
+			"path": "..\\..\\..\\..\\..\\git\\template\\ifri"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "admin"
+	}
+}
